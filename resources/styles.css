@@ -1,0 +1,132 @@
+/*-------------------------------------gloabl*/
+body {
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+/*---------------------------------------nav*/
+nav {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #1c1b1b;
+}
+
+ul {
+  width: 30%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+#logo {
+  height: 40px;
+}
+/*-------------------------------------intro*/
+#intro {
+  height: 42rem;
+
+  color: #fff;
+  background: url("media/imgs/paperboat.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+#intro h1 {
+  font-size: 6rem;
+}
+
+#layer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(28, 27, 27, 0.5);
+}
+
+/*------------------------------------skills*/
+#skills {
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #1c1b1b;
+}
+
+#lang, #self {
+  width: 50%;
+  padding: 10px;
+}
+
+#lang {
+  display: flex;
+}
+
+#txt {
+  height: 100%;
+  font-size: 1.4rem;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+#self {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#self img {
+  height: 12rem;
+  margin: 10px 0;
+  border-radius: 50%;
+}
+
+#self p {
+  width: 60%;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+/*---------------------------------------bar*/
+#bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.bars {
+  height: 1.4rem;
+  width: 1rem;
+  background-color: #fff;
+}
+
+.bars:nth-child(1) {
+    width: 150%;
+}
+
+.bars:nth-child(2) {
+    width: 150%;
+}
+
+.bars:nth-child(3) {
+    width: 130%;
+}
+
+.bars:nth-child(4) {
+    width: 140%;
+}
+
+.bars:nth-child(5) {
+    width: 200%;
+}
