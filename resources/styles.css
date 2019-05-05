@@ -34,8 +34,8 @@ li {
 #intro {
   height: 42rem;
   color: #fff;
-  background: url("media/imgs/paperboat.jpg") no-repeat fixed center;
-  background-size: cover;
+  /*background: url("media/imgs/paperboat.jpg") no-repeat fixed center;
+  background-size: cover; */
 }
 
 #intro h1 {
@@ -48,7 +48,22 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(28, 27, 27, 0.3), rgba(28, 27, 27, 1));
+  /*background-color: rgba(27, 28, 28, 0.8);*/
+}
+
+#fullscreen-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#vid {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /*------------------------------------skills*/
@@ -56,8 +71,8 @@ li {
   height: 30rem;
   display: flex;
   justify-content: space-between;
-  color: #fff;
-  background-color: #1c1b1b;
+  color: #000;
+  background-color: rgba(27, 28, 28, 0.3)
 }
 
 #lang, #self {
@@ -107,7 +122,7 @@ li {
 .bars {
   height: 1.4rem;
   width: 1rem;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .bars:nth-child(1) {
@@ -133,7 +148,8 @@ li {
 #projects {
   display: flex;
   flex-direction: row;
-  background-color: #1c1b1b;
+  color: #000;
+  background-color: rgba(27, 28, 28, 0.3)
 }
 
 #container {
@@ -192,10 +208,6 @@ li {
   width: 50%;
 }
 
-#contact ul li {
-  color: #fff;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -219,5 +231,13 @@ textarea {
 }
 /*----------------------------footer*/
 footer {
+  display: flex;
+  justify-content: space-between;
   padding: 10px 0;
+  color: #fff;
+  background-color: #1c1b1b;
+}
+
+footer p {
+  margin-left: 2rem;
 }
