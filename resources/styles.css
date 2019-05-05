@@ -34,21 +34,16 @@ li {
 #intro {
   height: 42rem;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1rem;
   /*background: url("media/imgs/paperboat.jpg") no-repeat fixed center;
   background-size: cover; */
 }
 
 #intro h1 {
   font-size: 6rem;
-}
-
-#layer {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*background-color: rgba(27, 28, 28, 0.8);*/
 }
 
 #fullscreen-wrap {
@@ -232,6 +227,7 @@ textarea {
 /*----------------------------footer*/
 footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 10px 0;
   color: #fff;
