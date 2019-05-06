@@ -1,0 +1,260 @@
+/*-------------------------------------gloabl*/
+body {
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+/*---------------------------------------nav*/
+nav {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: transparent;
+}
+
+ul {
+  width: 30%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+#logo {
+  height: 40px;
+}
+/*-------------------------------------intro*/
+#intro {
+  height: 42rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1rem;
+  /*background: url("media/imgs/paperboat.jpg") no-repeat fixed center;
+  background-size: cover; */
+}
+
+#intro h1 {
+  font-size: 6rem;
+}
+
+#last {
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+#fullscreen-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#vid {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/*------------------------------------skills*/
+#skills {
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  background-color: rgba(27, 28, 28, 0.3)
+}
+
+#lang, #self {
+  width: 50%;
+  padding: 10px;
+}
+
+#lang {
+  display: flex;
+}
+
+#txt {
+  height: 100%;
+  font-size: 1.4rem;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.bartxt {
+  position: relative;
+  left: -10px;
+  padding: 8px 10px;
+  border-radius: 5px 0 0 5px;
+  background-color: #000;
+}
+
+#self {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#self img {
+  height: 12rem;
+  margin: 10px 0;
+  border-radius: 50%;
+}
+
+#self h1 {
+  font-size: 3rem;
+}
+
+#self p {
+  width: 60%;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+/*---------------------------------------bar*/
+#bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.bars {
+  height: 1.4rem;
+  width: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 4px;
+  color: #fff;
+  background-color: #1c1b1b;
+}
+
+.bars:nth-child(1) {
+    width: 150%;
+}
+
+.bars:nth-child(2) {
+    width: 150%;
+}
+
+.bars:nth-child(3) {
+    width: 130%;
+}
+
+.bars:nth-child(4) {
+    width: 140%;
+}
+
+.bars:nth-child(5) {
+    width: 200%;
+}
+/*---------------------------------------projects*/
+#projects {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  background-color: rgba(27, 28, 28, 0.3)
+}
+
+#projects h1 {
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.probox {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  background-color: red;
+  border: solid green;
+  filter: grayscale(100%);
+}
+
+#cap {
+  background: url("media/imgs/capstone.png") center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+#optics {
+  background: url("media/imgs/optics.png") center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+#tea {
+  background: url("media/imgs/tea.png") center;
+  background-size: cover;
+}
+
+
+
+#contact {
+  height: 30rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1c1b1b;
+}
+
+#contact ul {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+form h1 {
+  font-size: 4rem;
+}
+
+input {
+  height: 2rem;
+}
+
+input:nth-child(2) {
+  margin: 20px 0;
+}
+
+textarea {
+  margin-top: 20px;
+}
+/*----------------------------footer*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #1c1b1b;
+}
+
+footer p {
+  margin-left: 2rem;
+}
