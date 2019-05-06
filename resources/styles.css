@@ -46,8 +46,28 @@ li {
   background-size: cover; */
 }
 
-#intro h1 {
+#intro{
   font-size: 6rem;
+}
+#intro1 {
+  opacity: 0;
+  animation: fade 2s ease-out 1s;
+  animation-fill-mode: forwards; /*saves the to keyframe value*/
+}
+
+#intro2 {
+  opacity: 0;
+  animation: fade 2s ease-out 2s;
+  animation-fill-mode: forwards;
+}
+
+#intro3 {
+  width: 0%;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 5px;
+  animation: slide 3s ease-out 3s;
+  animation-fill-mode: forwards;
 }
 
 #fullscreen-wrap {
@@ -63,6 +83,24 @@ li {
 #vid {
   min-width: 100%;
   min-height: 100%;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  from {
+    width:0%;
+  }
+  to {
+    width: 39.5%;
+  }
 }
 
 /*------------------------------------skills*/
@@ -189,6 +227,7 @@ li {
   font-size: 6rem;
   background-color: red;
   filter: grayscale(100%);
+  transition: filter 0.5s ease-out;
 }
 
 .probox:hover {
