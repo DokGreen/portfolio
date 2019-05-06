@@ -46,11 +46,14 @@ li {
   font-size: 6rem;
 }
 
+<<<<<<< HEAD
 #last {
   border-radius: 5px;
   background-color: yellow;
 }
 
+=======
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
 #fullscreen-wrap {
   position: absolute;
   top: 0;
@@ -92,6 +95,7 @@ li {
   justify-content: space-around;
 }
 
+<<<<<<< HEAD
 .bartxt {
   position: relative;
   left: -10px;
@@ -100,6 +104,8 @@ li {
   background-color: #000;
 }
 
+=======
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
 #self {
   display: flex;
   flex-direction: column;
@@ -113,10 +119,13 @@ li {
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
 #self h1 {
   font-size: 3rem;
 }
 
+=======
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
 #self p {
   width: 60%;
   margin-bottom: 10px;
@@ -134,11 +143,15 @@ li {
 .bars {
   height: 1.4rem;
   width: 1rem;
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   padding: 5px 0 5px 4px;
   color: #fff;
   background-color: #1c1b1b;
+=======
+  background-color: #000;
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
 }
 
 .bars:nth-child(1) {
@@ -163,16 +176,23 @@ li {
 /*---------------------------------------projects*/
 #projects {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+  flex-direction: row;
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
   color: #000;
   background-color: rgba(27, 28, 28, 0.3)
 }
 
+<<<<<<< HEAD
 #projects h1 {
   font-size: 3rem;
   margin: 0 auto;
 }
 
+=======
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
 #container {
   display: flex;
   flex-direction: row;
@@ -188,6 +208,7 @@ li {
   justify-content: center;
   font-size: 6rem;
   background-color: red;
+<<<<<<< HEAD
   filter: grayscale(100%);
 }
 
@@ -214,6 +235,36 @@ li {
 
 
 
+=======
+  border: solid green;
+}
+
+.probox h1 {
+  display: ;
+}
+
+.info {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #1c1b1b;
+  background-color: #fff;
+  display: none;
+}
+
+.probox:hover h1{
+  display: none;
+}
+
+.probox:hover .info {
+  display:flex;
+}
+
+>>>>>>> 8ca4374f74e10a1fc865f66c00b81d4c8e383454
 #contact {
   height: 30rem;
   display: flex;
