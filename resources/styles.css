@@ -3,6 +3,10 @@ body {
   height: 100%;
   font-family: Helvetica, sans-serif;
 }
+.yellow {
+  border-radius: 5px;
+  background-color: yellow;
+}
 /*---------------------------------------nav*/
 nav {
   width: 100%;
@@ -44,11 +48,6 @@ li {
 
 #intro h1 {
   font-size: 6rem;
-}
-
-#last {
-  border-radius: 5px;
-  background-color: yellow;
 }
 
 #fullscreen-wrap {
@@ -186,30 +185,30 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
   font-size: 6rem;
   background-color: red;
-  border: solid green;
   filter: grayscale(100%);
+}
+
+.probox:hover {
+  filter: grayscale(0);
 }
 
 #cap {
   background: url("media/imgs/capstone.png") center;
   background-size: cover;
-  filter: grayscale(100%);
 }
 
 #optics {
   background: url("media/imgs/optics.png") center;
   background-size: cover;
-  filter: grayscale(100%);
 }
 
 #tea {
   background: url("media/imgs/tea.png") center;
   background-size: cover;
 }
-
-
 
 #contact {
   height: 30rem;
@@ -257,4 +256,8 @@ footer {
 
 footer p {
   margin-left: 2rem;
+}
+
+footer ul li:nth-child(3) {
+  padding: 3px;
 }
