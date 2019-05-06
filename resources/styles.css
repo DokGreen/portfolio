@@ -188,8 +188,11 @@ li {
   justify-content: center;
   font-size: 6rem;
   background-color: red;
-  border: solid green;
   filter: grayscale(100%);
+}
+
+.probox:hover {
+  filter: grayscale(0%);
 }
 
 #cap {
