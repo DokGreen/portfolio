@@ -5,6 +5,7 @@ body {
 }
 .yellow {
   border-radius: 5px;
+  color: #fff;
   background-color: yellow;
 }
 /*---------------------------------------nav*/
@@ -154,10 +155,15 @@ li {
   font-size: 3rem;
 }
 
-#self p {
-  width: 60%;
+#txtbox {
+  width: 70%;
   margin-bottom: 10px;
+  text-align: center;
   font-size: 1.4rem;
+}
+
+#textbox #yellow {
+  padding: 5px;
 }
 
 /*---------------------------------------bar*/
@@ -297,6 +303,6 @@ footer p {
   margin-left: 2rem;
 }
 
-footer ul li:nth-child(3) {
+footer ul li:nth-child(2) {
   padding: 3px;
 }
