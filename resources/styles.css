@@ -7,6 +7,11 @@ body {
   border-radius: 5px;
   color: #fff;
   background-color: yellow;
+  border: solid yellow;
+}
+
+#small {
+  font-size: 0.5rem;
 }
 /*---------------------------------------nav*/
 nav {
@@ -106,11 +111,12 @@ li {
 
 /*------------------------------------skills*/
 #skills {
-  height: 30rem;
+  height: 40rem;
   display: flex;
   justify-content: space-between;
   color: #000;
-  background-color: rgba(27, 28, 28, 0.3)
+  background-color: rgba(27, 28, 28, 0.5);
+  box-sizing: border-box;
 }
 
 #lang, #self {
@@ -119,7 +125,9 @@ li {
 }
 
 #lang {
+  height: 80%;
   display: flex;
+  margin-top: 3%;
 }
 
 #txt {
@@ -156,14 +164,11 @@ li {
 }
 
 #txtbox {
-  width: 70%;
+  width: 80%;
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.4rem;
-}
-
-#textbox #yellow {
-  padding: 5px;
+  line-height: 1.2;
 }
 
 /*---------------------------------------bar*/
@@ -185,30 +190,30 @@ li {
 }
 
 .bars:nth-child(1) {
-    width: 150%;
+    width: 190%;
 }
 
 .bars:nth-child(2) {
-    width: 150%;
+    width: 190%;
 }
 
 .bars:nth-child(3) {
-    width: 130%;
+    width: 160%;
 }
 
 .bars:nth-child(4) {
-    width: 140%;
+    width: 150%;
 }
 
 .bars:nth-child(5) {
-    width: 200%;
+    width: 280%;
 }
 /*---------------------------------------projects*/
 #projects {
   display: flex;
   flex-direction: column;
   color: #000;
-  background-color: rgba(27, 28, 28, 0.3)
+  background-color: rgba(27, 28, 28, 0.5)
 }
 
 #projects h1 {
