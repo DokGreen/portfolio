@@ -260,6 +260,11 @@ li {
   background-size: cover;
 }
 
+#times {
+  background: url("media/imgs/times.png") center;
+  background-size: cover;
+}
+
 #contact {
   height: 30rem;
   display: flex;
