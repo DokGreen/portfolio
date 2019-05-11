@@ -60,19 +60,23 @@
       <h1>Portfolio</h1>
       <div id="container">
         <a href="https://dokgreen.github.io/Capstone/" target="_blank">
-          <div id="cap" class="probox">
+          <div class="probox">
+            <div id="cap" class="zoom"></div>
           </div>
         </a>
         <a href="https://dokgreen.github.io/TortoiseshellOptics/" target="_blank">
-          <div id="optics" class="probox">
+          <div class="probox">
+            <div id="optics" class="zoom"></div>
           </div>
         </a>
         <a href="https://dokgreen.github.io/teacozy/" target="_blank">
-          <div id="tea" class="probox">
+          <div class="probox">
+            <div id="tea" class="zoom"></div>
           </div>
         </a>
         <a href="https://dokgreen.github.io/mytimes/" target="_blank">
-          <div id="times" class="probox">
+          <div class="probox">
+            <div id="times" class="zoom"></div>
           </div>
         </a>
       </div>
@@ -81,9 +85,12 @@
     <section id="contact">
       <form>
         <h1>Let's have a chat</h1>
-        <input type="text" id="name" name="name" placeholder="Name">
-        <input type="email" id="email" name="email" placeholder="Email address">
+        <div id="field1">
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="email" id="email" name="email" placeholder="Email address">
+      </div>
         <textarea id="subject" name="subject" rows="8" cols="80" placeholder="I'd love to hear from you"></textarea>
+        <input type="submit" id="btn" value="Send">
       </form>
     </section>
 

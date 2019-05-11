@@ -27,6 +27,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   color: #fff;
+  z-index: 1;
   background-color: transparent;
 }
 
@@ -175,6 +176,12 @@ li {
   height: 12rem;
   margin: 10px 0;
   border-radius: 50%;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-out;
+}
+
+#self img:hover {
+  filter: grayscale(0%);
 }
 
 #self h1 {
@@ -199,7 +206,7 @@ li {
 
 .bars {
   height: 1.4rem;
-  width: 1rem;
+  width: 5rem; /*change this width somehow*/
   display: flex;
   align-items: center;
   padding: 5px 0 5px 4px;
@@ -263,11 +270,15 @@ li {
   filter: grayscale(0);
 }
 
-/**************************TEST*/
-#cap:hover {
+.zoom:hover {
   transform: scale(1.5);
 }
-/************************TEST*/
+
+.zoom {
+  height: 100%;
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
 
 #cap {
   background: url("media/imgs/capstone.png") center;
@@ -316,13 +327,43 @@ input {
   height: 2rem;
 }
 
-input:nth-child(2) {
+#field1 {
+  display: flex;
+  justify-content: space-between;
   margin: 20px 0;
 }
 
-textarea {
-  margin-top: 20px;
+#field1 input:nth-child(1) {
+  width: 30%;
 }
+
+#field1 input:nth-child(2) {
+  width: 50%;
+}
+
+#btn {
+  position: relative;
+  width: 12rem;
+  margin-top: 20px;
+  align-self: flex-end;
+  font-size: 1.8rem;
+  border: none;
+  border-bottom: solid 5px #BDA800;
+  border-radius: 5px;
+  color: #fff;
+  background-color: yellow;
+}
+
+#btn:active {
+  top: 5px;
+  border-bottom: none;
+}
+
+::placeholder {
+  font-size: 1.2rem;
+  font-family: Helvetica, sans-serif;
+}
+
 /*----------------------------footer*/
 footer {
   display: flex;
