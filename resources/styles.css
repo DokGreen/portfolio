@@ -45,6 +45,19 @@ li {
 #logo {
   height: 40px;
 }
+
+.navit:after {
+  display: block;
+  content: '';
+  border-bottom: solid 4px yellow;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navit:hover:after {
+  transform: scaleX(1); /*equal width expansion*/
+}
+
 /*-------------------------------------intro*/
 #intro {
   height: 42rem;
