@@ -3,6 +3,11 @@ body {
   height: 100%;
   font-family: Helvetica, sans-serif;
 }
+
+a {
+  color: #fff;
+}
+
 .yellow {
   border-radius: 5px;
   color: #fff;
