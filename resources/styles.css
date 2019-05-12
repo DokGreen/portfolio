@@ -124,7 +124,7 @@ li {
     width:0%;
   }
   to {
-    width: 39.5%;
+    width: 31%;
   }
 }
 
@@ -314,8 +314,10 @@ li {
 }
 
 form {
+  width: 40rem;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   color: #fff;
 }
 
@@ -325,6 +327,21 @@ form h1 {
 
 input {
   height: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  border-bottom: solid #fff;
+  background-color:inherit;
+}
+
+textarea {
+  width: 98.5%;
+  font-size: 1.2rem;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  border: solid #fff;
+  background-color: inherit;
 }
 
 #field1 {
@@ -334,7 +351,7 @@ input {
 }
 
 #field1 input:nth-child(1) {
-  width: 30%;
+  width: 45%;
 }
 
 #field1 input:nth-child(2) {
@@ -346,24 +363,21 @@ input {
   width: 12rem;
   margin-top: 20px;
   align-self: flex-end;
-  font-size: 1.8rem;
-  border: none;
-  border-bottom: solid 5px #BDA800;
-  border-radius: 5px;
-  color: #fff;
-  background-color: yellow;
+  font-size: 1.5rem;
+  border: solid 2px yellow;
+  border-radius: 5px 5px 5px 5px;
+  color: yellow;
+  background-color: inherit;
 }
 
 #btn:active {
-  top: 5px;
-  border-bottom: none;
+  top: 1px;
 }
 
 ::placeholder {
   font-size: 1.2rem;
   font-family: Helvetica, sans-serif;
 }
-
 /*----------------------------footer*/
 footer {
   display: flex;
