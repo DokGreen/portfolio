@@ -359,15 +359,39 @@ textarea {
 }
 
 #btn {
-  position: relative;
+  height: 2.1rem;
   width: 12rem;
   margin-top: 20px;
+  display: flex;
   align-self: flex-end;
+  overflow: hidden;
   font-size: 1.5rem;
   border: solid 2px yellow;
   border-radius: 5px 5px 5px 5px;
   color: yellow;
   background-color: inherit;
+}
+
+#btn p {
+  position: relative;
+  left: 0;
+  transition: left 1s ease-in-out;
+}
+
+#btn i {
+position: relative;
+left: -90px;
+width: 100%;
+color: yellow;
+transition: left 1s ease-in-out;
+}
+
+#btn:hover p {
+  left: 90px;
+}
+
+#btn:hover i {
+  left: 90px;
 }
 
 #btn:active {
