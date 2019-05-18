@@ -99,7 +99,7 @@ li {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   z-index: -1;
@@ -121,10 +121,10 @@ li {
 
 @keyframes slide {
   from {
-    width:0%;
+    width: 0%;
   }
   to {
-    width: 31%;
+    width: 24.5vw;
   }
 }
 
@@ -254,8 +254,8 @@ li {
 }
 
 .probox {
-  height: 300px;
-  width: 300px;
+  height: 45vh;
+  width: 22vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,6 +264,10 @@ li {
   overflow: hidden;
   filter: grayscale(100%);
   transition: filter 0.5s ease-out;
+}
+
+ #probox1{
+  margin-left: 0;
 }
 
 .probox:hover {
@@ -375,7 +379,7 @@ textarea {
 #btn p {
   position: relative;
   left: 0;
-  transition: left 1s ease-in-out;
+  transition: left 0.5s ease-in;
 }
 
 #btn i {
@@ -383,7 +387,7 @@ position: relative;
 left: -90px;
 width: 100%;
 color: yellow;
-transition: left 1s ease-in-out;
+transition: left 0.5s ease-out;
 }
 
 #btn:hover p {
@@ -419,3 +423,5 @@ footer p {
 footer ul li:nth-child(2) {
   padding: 3px;
 }
+
+/*-------------------------------breakpoint 1/
