@@ -428,9 +428,6 @@ footer ul li:nth-child(2) {
 
 /*-------------------------------breakpoint 1*/
 @media only screen and (max-width: 958px) {
-  body {
-    background-color: red;
-  }
 
   #skills {
     height: 50rem;
