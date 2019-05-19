@@ -43,6 +43,10 @@ li {
     display: inline-block;
 }
 
+#mobilenav {
+  display: none;
+}
+
 #logo {
   height: 40px;
 }
@@ -449,12 +453,17 @@ footer ul li:nth-child(2) {
   #lang {
     height: 80%;
     display: flex;
-    margin-top: 3%;
+    margin: 3% 0;
   }
 }
 
 /*---------------------------breakpoint 2*/
 @media only screen and (max-width: 660px){
+
+  nav ul {
+    width: 50%;
+  }
+
 /*----------------contact*/
   form {
     width: 30rem;
@@ -514,6 +523,41 @@ footer ul li:nth-child(2) {
 
   #btn:hover i {
     left: 40px;
+  }
+
+}
+
+/*-------------------------------mobile*/
+@media only screen and (max-width: 480px) {
+  nav ul {
+    display: none;
+  }
+
+  #mobilenav {
+    display: flex;
+  }
+
+  .navit:hover:after {
+    transform: scaleX(0);
+  }
+
+  #mobilenav li:hover {
+    position: relative;
+    top: 0;
+    animation: float 0.6s ease-in-out infinite alternate;
+  }
+
+  @keyframes float {
+    from {
+      top: 0;
+    }
+    to {
+      top: 5px;
+    }
+  }
+/*------------------------*/
+  #intro {
+    font-size: 4rem;
   }
 
 }
