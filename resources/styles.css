@@ -47,6 +47,7 @@ li {
   height: 40px;
 }
 
+/*nav center expand hover effect*/
 .navit:after {
   display: block;
   content: '';
@@ -71,27 +72,28 @@ li {
 }
 
 #introtxt {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #intro1 {
-  opacity: 0;
-  animation: fade 2s ease-out 1s;
+  opacity: 1;  /*may readd the animation*/
+  /*animation: fade 2s ease-out 1s;*/
   animation-fill-mode: forwards; /*saves the to keyframe value*/
 }
 
 #intro2 {
-  opacity: 0;
-  animation: fade 2s ease-out 2s;
+  opacity: 1;
+  /*animation: fade 2s ease-out 2s;*/
   animation-fill-mode: forwards;
 }
 
 #intro3 {
-  width: 0%;
-  overflow: hidden;
+  opacity: 0%;
   display: inline-block;
   border-radius: 5px;
-  animation: slide 3s ease-out 3s;
+  /*animation: fade 2s ease-out 3s;*/
   animation-fill-mode: forwards;
 }
 
@@ -433,7 +435,6 @@ footer ul li:nth-child(2) {
   #skills {
     height: 50rem;
     flex-direction: column;
-    border: solid green;
   }
 
   #lang, #self {
@@ -446,14 +447,12 @@ footer ul li:nth-child(2) {
     align-items: center;
     justify-content: space-around;
     line-height: 20px;
-    border: solid purple;
   }
 
   #lang {
     height: 80%;
     display: flex;
     margin-top: 3%;
-    border: solid yellow;
   }
 }
 
@@ -461,14 +460,17 @@ footer ul li:nth-child(2) {
 @media only screen and (max-width: 660px){
 /*----------------contact*/
   form {
-    width: 40rem;
+    width: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     color: #fff;
-    border: solid blue;
+  }
+
+  form h1 {
+    font-size: 3rem;
   }
 
   #field1 {
