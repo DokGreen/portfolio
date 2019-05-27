@@ -607,9 +607,18 @@ footer ul li:nth-child(2) {
     background-color: #fff;
   }
 
+  .mobbox img {
+    transition: transform 1s ease-in-out;
+  }
+
   .mobbox i {
     font-size: 20px;
     color: #000;
+    transition: transform 1s ease-in-out;
+  }
+
+  .mobbox:hover i, .mobbox:hover img {
+    transform: scale(1.5);
   }
 
 }
