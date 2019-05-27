@@ -48,6 +48,15 @@ li {
     display: inline-block;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 #mobilenav {
   display: none;
 }
