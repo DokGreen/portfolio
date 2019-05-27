@@ -264,6 +264,10 @@ li {
   padding: 3rem 0;
 }
 
+.mobbox {
+  display: none;
+}
+
 .probox {
   height: 45vh;
   width: 22vw;
@@ -575,7 +579,7 @@ footer ul li:nth-child(2) {
   }
 
   #fullscreen-wrap {
-    height: 81vh;
+    height: 81%;
   }
 
   #skills {
@@ -588,6 +592,27 @@ footer ul li:nth-child(2) {
 
   .probox {
     height: 10vh;
+  }
+
+  .zoom {
+    display: none;
+  }
+
+  .mobbox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobbox:nth-child(2) {
+    background-color: #fff;
+  }
+
+  .mobbox i {
+    font-size: 20px;
+    color: #000;
   }
 
 }
