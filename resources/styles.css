@@ -19,6 +19,10 @@ a {
   font-size: 0.5rem;
 }
 
+.clear {
+    clear: both;
+}
+
 /*---------------------------------------nav*/
 nav {
   width: 100%;
@@ -574,8 +578,16 @@ footer ul li:nth-child(2) {
     height: 81vh;
   }
 
+  #skills {
+    height: 60rem;
+  }
+
   #projects {
     padding-top:
+  }
+
+  .probox {
+    height: 10vh;
   }
 
 }
