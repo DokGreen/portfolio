@@ -579,6 +579,10 @@ footer ul li:nth-child(2) {
     font-size: 4rem;
   }
 
+  #fullscreen-wrap {
+    height: 100vh;
+  }
+
   #skills {
     height: 60rem;
   }
