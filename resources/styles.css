@@ -18,6 +18,7 @@ a {
 #small {
   font-size: 0.5rem;
 }
+
 /*---------------------------------------nav*/
 nav {
   width: 100%;
@@ -567,6 +568,14 @@ footer ul li:nth-child(2) {
 /*------------------------*/
   #intro {
     font-size: 4rem;
+  }
+
+  #fullscreen-wrap {
+    height: 81vh;
+  }
+
+  #projects {
+    padding-top:
   }
 
 }
