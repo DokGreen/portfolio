@@ -8,11 +8,15 @@ a {
   color: #fff;
 }
 
-.yellow {
+/*.yellow {
   border-radius: 5px;
   color: #fff;
   background-color: yellow;
   border: solid yellow;
+} */
+
+.yellow {
+  color: yellow;
 }
 
 #small {
@@ -31,9 +35,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: #403F45;
   z-index: 1;
-  background-color: transparent;
+  background-color: #fff;
 }
 
 ul {
@@ -48,28 +52,24 @@ li {
     display: inline-block;
 }
 
-button {
-  border: none;
-  background-color: transparent;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
 #mobilenav {
   display: none;
+  color: #403F45
 }
 
 #logo {
   height: 40px;
 }
 
+.navit {
+  color: #403F45;
+}
+
 /*nav center expand hover effect*/
 .navit:after {
   display: block;
   content: '';
-  border-bottom: solid 4px yellow;
+  border-bottom: solid 4px #F4DD08;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
@@ -80,7 +80,6 @@ button:hover {
 
 /*-------------------------------------intro*/
 #intro {
-  position: relative;
   height: 42rem;
   color: #fff;
   display: flex;
@@ -88,65 +87,34 @@ button:hover {
   justify-content: center;
   margin-bottom: -1rem;
   font-size: 6rem;
-  overflow: hidden;
+  background: rgba(255,255,255,0.5) url(media/imgs/robot.jpg) no-repeat fixed center;
+  background-size: cover;
 }
 
 #introtxt {
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+#intro1, #intro2, #intro3 {
+  position: absolute;
+  left: ;
 }
 
 #intro1 {
-  opacity: 1;  /*may readd the animation*/
-  /*animation: fade 2s ease-out 1s;*/
-  animation-fill-mode: forwards; /*saves the to keyframe value*/
-}
-
-#intro2 {
-  opacity: 1;
-  /*animation: fade 2s ease-out 2s;*/
-  animation-fill-mode: forwards;
+  top: 20%;
+  color: #403F45;
 }
 
 #intro3 {
-  opacity: 0%;
-  display: inline-block;
-  border-radius: 5px;
-  /*animation: fade 2s ease-out 3s;*/
-  animation-fill-mode: forwards;
-}
-
-#fullscreen-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 105vh;
-  z-index: -1;
-}
-
-#vid {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slide {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 24.5vw;
-  }
+  bottom: 20%;
+  color: #403F45;
 }
 
 /*------------------------------------skills*/
