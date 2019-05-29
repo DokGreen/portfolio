@@ -8,11 +8,16 @@ a {
   color: #fff;
 }
 
-.yellow {
+/*.yellow {
   border-radius: 5px;
   color: #fff;
   background-color: yellow;
   border: solid yellow;
+} */
+
+/*---------------------------TEST*/
+.yellow {
+  color: yellow;
 }
 
 #small {
@@ -248,11 +253,11 @@ button:hover {
 }
 
 .bars:nth-child(4) {
-    width: 150%;
+    width: 200%;
 }
 
 .bars:nth-child(5) {
-    width: 280%;
+    width: 150%;
 }
 /*---------------------------------------projects*/
 #projects {
