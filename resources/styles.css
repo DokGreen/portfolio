@@ -86,7 +86,8 @@ li {
   align-items: center;
   justify-content: center;
   margin-bottom: -1rem;
-  font-size: 6rem;
+  font-size: 7rem;
+  font-weight: bold;
   background: rgba(255,255,255,0.5) url(media/imgs/robot.jpg) no-repeat fixed center;
   background-size: cover;
 }
