@@ -85,10 +85,10 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -1rem;
-  font-size: 7rem;
+  font-size: 8rem;
   font-weight: bold;
-  background: rgba(255,255,255,0.5) url(media/imgs/robot.jpg) no-repeat fixed center;
+  overflow: hidden;
+  background: url(media/imgs/robot.jpg) no-repeat fixed center;
   background-size: cover;
 }
 
@@ -96,11 +96,11 @@ li {
   position: relative;
   width: 100%;
   height: 100%;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 #intro1, #intro2, #intro3 {
@@ -109,12 +109,12 @@ li {
 }
 
 #intro1 {
-  top: 20%;
+  top: 15%;
   color: #403F45;
 }
 
 #intro3 {
-  bottom: 20%;
+  bottom: 15%;
   color: #403F45;
 }
 
@@ -145,14 +145,6 @@ li {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-}
-
-.bartxt {
-  position: relative;
-  left: -10px;
-  padding: 8px 10px;
-  border-radius: 5px 0 0 5px;
-  background-color: #000;
 }
 
 #self {
@@ -196,32 +188,41 @@ li {
 
 .bars {
   height: 1.4rem;
-  width: 5rem; /*change this width somehow*/
+  width: 300%; /*change this width somehow*/
   display: flex;
   align-items: center;
   padding: 5px 0 5px 4px;
   color: #fff;
   background-color: #1c1b1b;
+  box-shadow: -3px -3px 5px #000 inset;
 }
 
-.bars:nth-child(1) {
-    width: 190%;
+.bartxt {
+  position: relative;
+  left: -10px;
+  padding: 8px 10px;
+  border-radius: 5px 0 0 5px;
+  background-color: #000;
 }
 
-.bars:nth-child(2) {
-    width: 190%;
+.bars:nth-child(1) .bartxt {
+    width: 80%;
 }
 
-.bars:nth-child(3) {
-    width: 160%;
+.bars:nth-child(2) .bartxt {
+    width: 80%;
 }
 
-.bars:nth-child(4) {
-    width: 150%;
+.bars:nth-child(3) .bartxt {
+    width: 60%;
 }
 
-.bars:nth-child(5) {
-    width: 280%;
+.bars:nth-child(4) .bartxt {
+    width: 70%;
+}
+
+.bars:nth-child(5) .bartxt {
+    width: 40%;
 }
 /*---------------------------------------projects*/
 #projects {
