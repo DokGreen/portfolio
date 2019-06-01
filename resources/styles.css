@@ -179,6 +179,7 @@ li {
   font-size: 5rem;
   font-weight: bold;
   color: #403F45;
+  margin-bottom: 5px;
 }
 
 #txtbox {
@@ -302,102 +303,18 @@ li {
   display: flex;
   flex-direction:column;
   align-items: center;
-  justify-content: space-around;
   background-color: #1c1b1b;
 }
 
-#contact ul {
-  width: 50%;
-}
-
-form {
-  width: 40rem;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  color: #fff;
-}
-
-form h1 {
+#contact h1 {
   font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  margin: 10px 0;
 }
 
-input {
-  height: 2rem;
-  border: none;
-  font-size: 1.2rem;
-  font-family: Helvetica, sans-serif;
-  color: #fff;
-  border-bottom: solid #fff;
-  background-color:inherit;
-}
-
-textarea {
-  width: 98.5%;
-  font-size: 1.2rem;
-  font-family: Helvetica, sans-serif;
-  color: #fff;
-  border: solid #fff;
-  background-color: inherit;
-}
-
-#field1 {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-#field1 input:nth-child(1) {
-  width: 45%;
-}
-
-#field1 input:nth-child(2) {
-  width: 50%;
-}
-
-#btn {
-  height: 2.1rem;
-  width: 12rem;
-  margin-top: 20px;
-  display: flex;
-  align-self: flex-end;
-  overflow: hidden;
-  font-size: 1.5rem;
-  border: solid 2px yellow;
-  border-radius: 5px 5px 5px 5px;
-  color: yellow;
-  background-color: inherit;
-}
-
-#btn p {
-  position: relative;
-  left: 0;
-  transition: left 0.5s ease-in;
-}
-
-#btn i {
-position: relative;
-left: -90px;
-width: 100%;
-color: yellow;
-transition: left 0.5s ease-out;
-}
-
-#btn:hover p {
-  left: 90px;
-}
-
-#btn:hover i {
-  left: 90px;
-}
-
-#btn:active {
-  top: 1px;
-}
-
-::placeholder {
-  font-size: 1.2rem;
-  font-family: Helvetica, sans-serif;
+#contact p {
+  color: #E6CE1D;
 }
 /*----------------------------footer*/
 footer {
@@ -554,10 +471,6 @@ footer ul li:nth-child(2) {
 /*------------------------*/
   #intro {
     font-size: 4rem;
-  }
-
-  #fullscreen-wrap {
-    height: 100vh;
   }
 
   #skills {
