@@ -1,4 +1,8 @@
 /*-------------------------------------gloabl*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   font-family: Helvetica, sans-serif;
@@ -230,10 +234,11 @@ li {
 }
 
 #projects h1 {
-  font-size:5rem;
+  font-size: 5rem;
   font-weight: bold;
   color: #E6CE1D;
-  margin: 10px auto;
+  margin: 5px auto;
+  margin-top: 40px;
 }
 
 #container {
