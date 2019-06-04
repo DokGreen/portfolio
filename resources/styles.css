@@ -171,8 +171,6 @@ li {
   height: 12rem;
   margin: 20px 0 10px 0;
   border-radius: 50%;
-  filter: grayscale(100%);
-  transition: filter 0.5s ease-out;
 }
 
 #self img:hover {
@@ -315,15 +313,17 @@ li {
   font-size: 3rem;
   font-weight: bold;
   color: #fff;
-  margin: 10px 0 50px 0;
+  margin: 20px 0 50px 0;
 }
 
 #contact-wrap {
   height: 20%;
+  margin: 0 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   font-size: 1.5rem;
   color: #E6CE1D;
 }
@@ -334,6 +334,12 @@ li {
 
 #contact-wrap p:nth-child(2) {
   margin: 10px 0;
+}
+
+#contact-wrap ul li:hover {
+  position: relative;
+  top: 2px;
+  left: -2px
 }
 
 #contact-wrap ul li {
