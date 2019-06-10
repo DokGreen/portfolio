@@ -84,7 +84,7 @@ li {
 
 /*-------------------------------------intro*/
 #intro {
-  height: 42rem;
+  height: 100vh;
   color: #fff;
   display: flex;
   align-items: center;
@@ -225,7 +225,12 @@ li {
 /*---------------------------------------projects*/
 #projects {
   display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   color: #000;
   background: linear-gradient(rgba(64,63,69,0.5), rgba(64,63,69,0.5)), url(media/imgs/robotoffice.jpeg) no-repeat fixed center;
   background-size: cover;
@@ -235,13 +240,18 @@ li {
   font-size: 5rem;
   font-weight: bold;
   color: #E6CE1D;
-  margin: 5px auto;
+  margin: 0 auto;
   margin-top: 40px;
 }
 
 #container {
   display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   margin: 0 auto;
   padding: 3rem 0;
 }
@@ -254,12 +264,19 @@ li {
   height: 45vh;
   width: 22vw;
   display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   align-items: center;
   justify-content: center;
   margin-left: 10px;
   font-size: 6rem;
   overflow: hidden;
   filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
   transition: filter 0.5s ease-out;
 }
 
@@ -269,6 +286,10 @@ li {
 
 .probox:hover {
   filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
 }
 
 .zoom:hover {

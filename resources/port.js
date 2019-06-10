@@ -26,22 +26,6 @@ const isInViewport = function (e) {
 	);
 };
 
-/*----------------------------------------------------------------------TESTING---*/
-/*----------------------------------------------------------------------Smooth scroll---*/
-document.querySelector("a").onclick = function(){
-  if (this.hash !== "") {
-    event.preventDefault();
-
-    var hash = this.hash;
-
-    document.querySelector("html, body").animate({
-      scrollTop: hash.offset().top
-    }, 800, function(){
-      window.location.hash = hash;
-    }
-  )
-  }
-}
 
 document.addEventListener('scroll', function(){ // on page scroll
   requestAnimationFrame(mousemove) // call mousemove  the animatione frame helps to smooth it out
