@@ -12,8 +12,8 @@
   </head>
   <body>
     <nav>
-        <a href="#intro"><img id="logo" src="resources/media/imgs/logotest.png"></a>
-      <ul>
+      <a href="#intro"><img id="logo" src="resources/media/imgs/logotest.png" alt="My logo"></a>
+      <ul role="presentation">
         <li><a class="navit" href="#skills">About</a></li>
         <li><a class="navit" href="#projects">Portfolio</a></li>
         <li><a class="navit" href="#contact">Contact</a></li>
@@ -24,7 +24,7 @@
         <li><a class="fas fa-envelope -open-text navit" href="#contact"></a></li>
       </ul>
     </nav>
-    <section id="intro">
+    <section id="intro"> <!--No headers needed due to css changes on centents-->
       <div id="introtxt">
         <span id="intro1">Simple.</span>
         <span id="intro2" class="yellow">Intricate.</span>
@@ -35,10 +35,10 @@
     <section id="skills">
       <div id="self">
         <h1>About</h1>
-        <img src="resources/media/imgs/wig.jpeg" alt="picture of me">
+        <img src="resources/media/imgs/wig.jpeg" alt="Picture of myself">
         <div id="txtbox">
           <p>
-            Hello I'm Reece, an aspiring Front end developer.<br>
+            Hello I'm Reece, a Junior Front end developer.<br>
             As you will see from my work I demonstrate an <span class="yellow">extensive</span> knowledge of html and css however I'd prefer to be
             judged by what I strive to create,
             an ever growing skill set <span class="yellow">engineered</span> through personal and professional challenges, fueled by my
@@ -48,7 +48,7 @@
         </div>
       </div>
       <div id="lang">
-        <ul id="bar">
+        <ul id="bar" role="presentation">
           <li class="bars"><span class="bartxt">HTML 5</span></li>
           <li class="bars"><span class="bartxt">CSS 3</span></li>
           <li class="bars"><span class="bartxt">Git</span></li>
@@ -64,7 +64,7 @@
         <a href="https://dokgreen.github.io/Capstone/" target="_blank">
           <div id="probox1" class="probox">
             <div id="cap" class="zoom"></div>
-            <div class="mobbox"><img src="resources/media/imgs/ic-logo.svg"></div>
+            <div class="mobbox"><img src="resources/media/imgs/ic-logo.svg" alt="academy website logo"></div>
           </div>
         </a>
         <a href="https://dokgreen.github.io/TortoiseshellOptics/" target="_blank">
@@ -93,7 +93,7 @@
       <div id="contact-wrap">
           <p><span>Email:</span> Farnworthwork@gmail.com</p>
           <p><span>Call:</span> 07801953015</p>
-          <ul>
+          <ul role="presentation">
             <li class="fas fa-drumstick-bite"></li>
             <li class="fas fa-bicycle"></li>
             <li class="fas fa-laptop-code"></li>
@@ -105,8 +105,15 @@
     </section>
 
     <footer>
-      <p>Copyright &copy 2019 Farnworth.com </p>
-      <ul>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+       </a>
+     </p>
+      <p>Copyright &copy; 2019 Farnworth.com </p>
+      <ul role="presentation">
         <li>
           <a class="fab fa-github fa-2x" href="https://github.com/DokGreen" target="_blank"></a>
         </li>

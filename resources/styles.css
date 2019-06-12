@@ -159,9 +159,10 @@ li {
           flex: 1;
 }
 
-#intro1, #intro2, #intro3 {
+#intro1,
+#intro2,
+#intro3 {
   position: absolute;
-  left: ;
 }
 
 #intro1 {
