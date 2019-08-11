@@ -36,7 +36,7 @@ document.addEventListener('scroll', function(){ // on page scroll
     bar1[1].style.width = "80%";
     bar1[2].style.width = "60%";
     bar1[3].style.width = "70%";
-    bar1[4].style.width = "40%";
+    bar1[4].style.width = "70%";
   }//reset changes when out
       else {
     bar1[0].style.width = "30%"
