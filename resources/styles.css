@@ -413,13 +413,13 @@ li {
   background-size: cover;
 }
 
-#optics {
-  background: url("media/imgs/optics.png") center;
+#motors {
+  background: url("media/imgs/vertuMotors.png") center;
   background-size: cover;
 }
 
-#tea {
-  background: url("media/imgs/tea.png") center;
+#dice {
+  background: url("media/imgs/dice.png") center;
   background-size: cover;
 }
 
